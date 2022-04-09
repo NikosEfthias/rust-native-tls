@@ -1,6 +1,3 @@
-extern crate openssl;
-extern crate openssl_probe;
-
 use self::openssl::{
 	error::ErrorStack, hash::MessageDigest, nid::Nid, pkcs12::Pkcs12, pkey::{PKey, Private}, ssl::{
 		self, MidHandshakeSslStream, SslAcceptor, SslConnector, SslContextBuilder, SslMethod, SslVerifyMode
